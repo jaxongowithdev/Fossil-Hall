@@ -1,0 +1,23 @@
+name: user_screen
+description: "Fossil Hall - Dig, Discover, Restore, and Exhibit dinosaur fossils"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.32.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.21.0
+  shared_preferences: ^2.3.4
+  # audioplayers: ^6.1.0  # Temporarily disabled due to iOS build issues
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
